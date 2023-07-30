@@ -14,8 +14,7 @@ let root = "https://api.openweathermap.org";
 let apiKey = "ac209dae1f283fb332a5bb7f50b0f468";
 
 
-  let apiurl=' https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}'
-
+ 
 function friendlyDay(dayNumber) {
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   return days[dayNumber];
